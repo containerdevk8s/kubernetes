@@ -1,0 +1,2 @@
+deb http://apt.kubernetes.io/ kubernetes-xenial main
+deb https://$USER.github.io/$REPO/ubuntu16.04/$(ARCH) /
