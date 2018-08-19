@@ -7,7 +7,7 @@ In order to setup the kubernetes repository for your distribution, follow the in
 #### Xenial x86_64
 
 ```bash
-curl -s -L https://$USER.github.io/${REPO}/gpgkey | \
+curl -s -L https://containerdevk8s.github.io/${REPO}/gpgkey | \
   sudo apt-key add -
 curl -s -L https://${USER}.github.io/${REPO}/ubuntu16.04/nvidia-kubernetes.list | \
   sudo tee /etc/apt/sources.list.d/nvidia-kubernetes.list

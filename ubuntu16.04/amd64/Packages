@@ -19,19 +19,38 @@ Vcs-Browser: https://github.com/NVIDIA/kubernetes
 
 Package: kubectl
 Architecture: amd64
-Version: 1.9.7+nvidia
+Version: 1.9.9+nvidia
 Priority: optional
 Section: misc
 Maintainer: NVIDIA CORPORATION <cudatools@nvidia.com>
-Filename: ./kubectl.deb
-Size: 10558962
-MD5sum: 812ed0fdc8b90e88f39f1ce3b57fc7b2
-SHA1: 4a4954595c99f59344c4990977ae221a2e4e218f
-SHA256: 998cfa4a2d3a5a5c7ab11fbd952bb667bf70127d185c3d3b342b5c477af01ae6
-SHA512: b2c6fecf61c62e5a400e9589b00e190d68d013e8b435a7983af290e716871f0190cde2a062d97d5316167fd448529262c4ca7457f32612d94c6a8f97de0a842e
+Filename: ./kubectl_1.9.9+nvidia_amd64.deb
+Size: 10658872
+MD5sum: 031d6fe7ddb730bdd39d1f05a6859bb0
+SHA1: 6ab314c4eb2677b3e6645bf5c3141d1981417fe4
+SHA256: a265b421b9e1cd2d3591792554c6c708229ce1c88dc3400772055685dd67b269
+SHA512: 10d10acb3409fe7374c4229a22abf370b2d689983b6dc2ed6a807f74a0996bfebdc8c3378ee5d4fb5ca9d67917d8ff75175dd712c0bc1228b055d39a10bcc647
 Homepage: https://github.com/NVIDIA/kubernetes
 Description: Kubernetes Command Line Tool
  The Kubernetes command line tool for interacting with the Kubernetes API.
+Vcs-Git: https://github.com/NVIDIA/kubernetes
+Vcs-Browser: https://github.com/NVIDIA/kubernetes
+
+Package: kubelet
+Architecture: amd64
+Version: 1.9.9+nvidia
+Priority: optional
+Section: misc
+Maintainer: NVIDIA CORPORATION <cudatools@nvidia.com>
+Depends: iptables (>= 1.4.21), kubernetes-cni (= 0.6.0), iproute2, socat, util-linux, mount, ebtables, ethtool, init-system-helpers (>= 1.18~)
+Filename: ./kubelet_1.9.9+nvidia_amd64.deb
+Size: 20556928
+MD5sum: df1741047082cd407d4110c8abd6d04e
+SHA1: 0b803141a197d3ba068a7b1976d14688f0c7483d
+SHA256: bbdd30920eb22b98bfeb53e5e557ec9b38acb7a22b75f91158fb29582faff5d4
+SHA512: e8dfc1bb9af1e492c5de3a91342b726b36cc5db7cd9446aba2be61b46f000933978eec116ff91635318469d362f957d4bb976c068a61999ca6aeb29a5f96bcdd
+Homepage: https://github.com/NVIDIA/kubernetes
+Description: Kubernetes Node Agent
+ The node agent of Kubernetes, the container cluster manager
 Vcs-Git: https://github.com/NVIDIA/kubernetes
 Vcs-Browser: https://github.com/NVIDIA/kubernetes
 
@@ -51,6 +70,43 @@ SHA512: 571b77417649bb07b8b0972a368be953c39812e293ef5967bd9ce6dd59494673c0523228
 Homepage: https://github.com/NVIDIA/kubernetes
 Description: Kubernetes Node Agent
  The node agent of Kubernetes, the container cluster manager
+Vcs-Git: https://github.com/NVIDIA/kubernetes
+Vcs-Browser: https://github.com/NVIDIA/kubernetes
+
+Package: kubectl
+Architecture: amd64
+Version: 1.9.7+nvidia
+Priority: optional
+Section: misc
+Maintainer: NVIDIA CORPORATION <cudatools@nvidia.com>
+Filename: ./kubectl.deb
+Size: 10558962
+MD5sum: 812ed0fdc8b90e88f39f1ce3b57fc7b2
+SHA1: 4a4954595c99f59344c4990977ae221a2e4e218f
+SHA256: 998cfa4a2d3a5a5c7ab11fbd952bb667bf70127d185c3d3b342b5c477af01ae6
+SHA512: b2c6fecf61c62e5a400e9589b00e190d68d013e8b435a7983af290e716871f0190cde2a062d97d5316167fd448529262c4ca7457f32612d94c6a8f97de0a842e
+Homepage: https://github.com/NVIDIA/kubernetes
+Description: Kubernetes Command Line Tool
+ The Kubernetes command line tool for interacting with the Kubernetes API.
+Vcs-Git: https://github.com/NVIDIA/kubernetes
+Vcs-Browser: https://github.com/NVIDIA/kubernetes
+
+Package: kubeadm
+Architecture: amd64
+Version: 1.9.9+nvidia
+Priority: optional
+Section: misc
+Maintainer: NVIDIA CORPORATION <cudatools@nvidia.com>
+Depends: kubelet (>= 1.6.0), kubectl (>= 1.6.0)
+Filename: ./kubeadm_1.9.9+nvidia_amd64.deb
+Size: 20395564
+MD5sum: 51889a196cfbdf4eaa7fa06d3f831b3d
+SHA1: 0d2a8419a094deaf90c3a397bec439695e6fcda9
+SHA256: b782c1c6ddadb89cdb67402a7fa842f659af56cdaf3ad50e8052048ec7120557
+SHA512: b7c0f8f65dab3f06e9363eb4f278deba3a76ab41766ee7066023d2cebc3f00a58b2dbc42588a08c15b7a8cb61b8782af6ec758410fbf4c65bf9369e25fc54872
+Homepage: https://github.com/NVIDIA/kubernetes
+Description: Kubernetes Cluster Bootstrapping Tool
+ The Kubernetes command line tool for bootstrapping a Kubernetes cluster.
 Vcs-Git: https://github.com/NVIDIA/kubernetes
 Vcs-Browser: https://github.com/NVIDIA/kubernetes
 
