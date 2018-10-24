@@ -1,0 +1,31 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Architectures: amd64
+Codename: xenial
+Components: main
+Date: Wed, 27 Sep 2017 23:08:53 +0000
+Description: Kubernetes On NVIDIA GPUs
+Label: NVIDIA CORPORATION <cudatools@nvidia.com>
+Origin: https://containerdevk8s.github.io/kubernetes
+Suite: xenial
+Version: 1.0
+SHA512:
+ 7b52fd80d9428df14bd9e2650a2c44f1958e2832f3e9e8a1743f8706eefaafafb64fa8deb1c17c01eee9743b38077f930d70e4a321b94eb90c63294531dbe4b4             9592 Packages
+ 875336de4b2133d40d372f610d031ddf0f582dd08d4ba15004c4db5e63ff5cc446259a272bae68e52a8d0d5b758e23805dd4ee3d2e700d39550fb899fc4a6138             2612 Packages.xz
+-----BEGIN PGP SIGNATURE-----
+
+iQIcBAEBCgAGBQJb20zvAAoJEB0IEj/CNRsq9WwP/idfBpXKoB7jnZy6hXmlZysS
+40k1sBcLSYbY5arXi0Q0+TQTMeC9Z4RX2OlnEJ7/bb9DJtUBNcJ5ymP6hOlS2eVV
+eNIqefK0uMS8A0jhiT5uyQrnX1UNhjJRdy3nyNuQ2f7zMnl0zn4I9nibYcSs482A
++ZSIWfMhHnQc4BM3DVsMQ19DTSNlmZgglPMO+DYVTc7FdHPG7dlL3bKPXcSb/s0R
+64PEoD10XXjN13UAFSah8zC6tjdcZ8nOCRfuSPu4hiJpawGLWg23SaVsMR3D5Yls
+oEcXDtZ9t6OB3efN/zbmKaICZ8V8EhDzeoYBp2pTpMPk3+acyhD/PbVS2J4X/5pm
+gQh/OXbn88I7DLYNMaqDAxVdUI1NXhUWy/Vm5rKz70XuFEzdOVXlTtyhI3QozM7f
+Pgs9obK8S5unMuXQFKMATCZEmTY1a3Rd9Sr+H2+bFdOBplBTSTbTWjjtLK8I9rvV
+Z6fdVZO3/bfaKz4ZzqDe6ce+5czgiddvE2d4nFp2TRozbyhjqB/nkCwXOnwiWffc
+crxeWLwGldh9iV/Gyb8ykm+AetTNLku4LfWDd0Nii/LJs557lUhrRnH5sb89KyKd
+iWaaLH0ew3ueRpvG6m+KzLbff0Vwp6ddWP9WQFTXKAIuSi9C/VYOJuQ5LLd1gH2b
+kFDGs10vxAXygAfXoVr4
+=iK41
+-----END PGP SIGNATURE-----
